@@ -18,7 +18,17 @@ import {
 export const FullScreenLoader = () => {
   return (
     <FullScreenLoaders>
-      <img className="image" src="/images/cat.gif" alt="animation"></img>
+      {/* <img className="image" src="/images/cat.gif" alt="animation"></img> */}
+      <ThreeDots
+        visible={true}
+        height="80"
+        width="80"
+        color="#4fa94d"
+        radius="9"
+        ariaLabel="three-dots-loading"
+        wrapperStyle={{}}
+        wrapperClass=""
+      />
       <div className="text">
         <span>Dev</span>hub
       </div>
